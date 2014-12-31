@@ -1,4 +1,4 @@
-nhibernate-mapping-example
+nhibernate-example
 ==========================
 
 Mapping example for nhibernate
