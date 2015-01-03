@@ -140,7 +140,7 @@ namespace nHibernate4
             {
                 for (var i = 0; i < 100; i++)
                 {
-                    var obj = new GeneratorEnhancedTable
+                    var obj = new GeneratorEnhTable
                     {
                         Value = "Obj" + i
                     };
@@ -160,7 +160,7 @@ namespace nHibernate4
             {
                 for (var i = 0; i < 100; i++)
                 {
-                    var obj = new GeneratorEnhancedSequence
+                    var obj = new GeneratorEnhSeq
                     {
                         Value = "Obj" + i
                     };

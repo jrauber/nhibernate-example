@@ -4,7 +4,7 @@ using NHibernate.Mapping.ByCode;
 
 namespace nHibernate4.Mapping
 {
-    public class OrderHeadMap : MapBase<OrderHead>
+    public class OrderHeadMap : MapBaseEnhSeq<OrderHead>
     {
         public OrderHeadMap()
         {

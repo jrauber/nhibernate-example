@@ -3,9 +3,9 @@ using nHibernate4.Model;
 
 namespace nHibernate4.Mapping
 {
-    public class GeneratorEnhancedTableMap : MapBaseEnhancedTable<GeneratorEnhancedTable>
+    public class GeneratorEnhTableMap : MapBaseEnhTable<GeneratorEnhTable>
     {
-        public GeneratorEnhancedTableMap()
+        public GeneratorEnhTableMap()
         {
             Property(x => x.Value);
         }

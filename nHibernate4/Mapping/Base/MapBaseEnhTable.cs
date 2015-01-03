@@ -4,16 +4,19 @@ using NHibernate.Mapping.ByCode.Conformist;
 
 namespace nHibernate4.Mapping.Base
 {
-    public class MapBaseEnhancedSequence<T> : ClassMapping<T> where T : ModelBase
+    public class MapBaseEnhTable<T> : ClassMapping<T> where T : ModelBase
     {
-        public MapBaseEnhancedSequence()
+        public MapBaseEnhTable()
         {
             Id(x => x.Id, m =>
             {
-                m.Generator(Generators.EnhancedSequence, g => g.Params(new
+                m.Generator(Generators.EnhancedTable, g => g.Params(new
                 {
-                    sequence_name = "enhanced_sequence",
+                    segment_value = "enhanced_table",
                     optimizer = "pooled",
+                    schema = "",
+                    catalog = "",
+                    parameters = "",
                     increment_size = 20
                 }));
             });

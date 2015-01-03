@@ -48,15 +48,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Mapping\Base\MapBaseEnhancedTable.cs" />
-    <Compile Include="Mapping\Base\MapBaseEnhancedSequence.cs" />
-    <Compile Include="Mapping\GeneratorEnhancedSequenceMap.cs" />
-    <Compile Include="Mapping\GeneratorEnhancedTableMap.cs" />
+    <Compile Include="Mapping\Base\MapBaseEnhTable.cs" />
+    <Compile Include="Mapping\Base\MapBaseEnhSeq.cs" />
+    <Compile Include="Mapping\GeneratorEnhSeqMap.cs" />
+    <Compile Include="Mapping\GeneratorEnhTableMap.cs" />
     <Compile Include="Mapping\OrderLineMap.cs" />
     <Compile Include="Mapping\OrderHeadMap.cs" />
-    <Compile Include="Model\GeneratorEnhancedSequence.cs" />
+    <Compile Include="Model\GeneratorEnhSeq.cs" />
     <Compile Include="Model\OrderHead.cs" />
-    <Compile Include="Model\GeneratorEnhancedTable.cs" />
+    <Compile Include="Model\GeneratorEnhTable.cs" />
     <Compile Include="Model\OrderLine.cs" />
     <Compile Include="Model\LazyColumn.cs" />
     <Compile Include="Mapping\LazyColumnMap.cs" />

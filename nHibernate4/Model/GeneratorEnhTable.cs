@@ -2,7 +2,7 @@
 
 namespace nHibernate4.Model
 {
-    public class GeneratorEnhancedTable : ModelBase
+    public class GeneratorEnhTable : ModelBase
     {
         public virtual string Value { get; set; }
     }

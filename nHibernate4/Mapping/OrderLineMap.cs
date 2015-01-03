@@ -3,7 +3,7 @@ using nHibernate4.Model;
 
 namespace nHibernate4.Mapping
 {
-    public class OrderLineMap : MapBase<OrderLine>
+    public class OrderLineMap : MapBaseEnhSeq<OrderLine>
     {
         public OrderLineMap()
         {
