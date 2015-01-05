@@ -1,4 +1,4 @@
 nhibernate-example
 ==========================
 
-Mapping example for nhibernate
+Usage of new Features in NHibernate
